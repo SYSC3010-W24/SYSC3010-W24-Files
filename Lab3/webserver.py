@@ -23,7 +23,7 @@ def map_index_to_xy(led_index: int):
 
 @app.route('/')
 def index():
-    return render_template('Lab-Colour-Picker.html')
+    return render_template('Lab3-Colour-Picker.html')
 
 # When users connect to the server using a webbrowser, a websocket is opened 
 # and this function is called to send the current LED colors
